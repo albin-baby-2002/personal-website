@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A project report on linkedin" />
+    <meta name="robots" content="index, follow" />
+    <title>Albin</title>
+    <script
+      src="https://kit.fontawesome.com/31f96e4908.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-Container">
+        <div class="logo">
+          <p><a href="./index.html">Albin</a></p>
+        </div>
+
+        <nav id="navigation-Bar" class="navigation-Bar hidden">
+          <a href="./index.html">Home</a>
+          <a href="./portfolio.html">Portfolio</a>
+          <a href="./services.html">Services</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="navigation-button">
+          <i
+            id="toggle-button"
+            class="fa-solid fa-bars"
+            style="color: #ffffff"
+          ></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact-main">
+      <h1>Contact Me</h1>
+
+      <form class="contact-container" id="contact-form" action="" method="get">
+        <div class="form-items">
+          <label for="names">Name</label>
+          <input type="text" name="names" id="names" onkeyup="validateName()" />
+          <div class="error" id="error"></div>
+        </div>
+
+        <div class="form-items">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" onkeyup="validateMail()" />
+          <div class="error" id="error"></div>
+        </div>
+
+        <div class="form-items">
+          <label for="message">Message</label>
+
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="6"
+            onkeyup="validateMessage()"
+          ></textarea>
+          <div class="error" id="error"></div>
+        </div>
+
+        <div class="form-items">
+          <button id="submit-button" type="submit">submit</button>
+        </div>
+      </form>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./contact.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
