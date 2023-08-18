@@ -142,7 +142,7 @@ body {
 }
 
 .socials a {
-  color: #1a843a;
+  color: #0e4c21;
 }
 
 .icon {
@@ -190,6 +190,7 @@ body {
   .logo {
     font-size: 1.7rem;
   }
+
   .navigation-button {
     display: none;
   }
@@ -217,6 +218,7 @@ body {
   .background-img img {
     max-width: 100%;
   }
+
   .introduction {
     flex-direction: row;
   }
@@ -226,6 +228,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
   }
+
   .position {
     padding-top: 2rem;
     padding-bottom: 0px;
@@ -264,6 +267,7 @@ body {
   .tech-group-container {
     gap: 8rem;
   }
+
   .tech-group {
     gap: 8rem;
     font-size: 9.5rem;
@@ -283,7 +287,7 @@ body {
 .services-main h1 {
   text-align: center;
   font-weight: bolder;
-  color: #4fb36d;
+  color: #2ebf5e;
   padding-top: 0;
   background-color: #292828;
   max-width: 500px;
@@ -302,10 +306,10 @@ body {
 .basic-details,
 .educational-details,
 .other-details {
-  background-color: #000000;
+  background-color: #292828;
   padding: 30px;
   color: white;
-  opacity: 0.8;
+
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
   /* outline: 3px solid rgb(247, 241, 241); */
@@ -349,7 +353,7 @@ body {
 
 .portfolio-main h1 {
   max-width: 700px;
-  color: #78e198;
+  color: #2ebf5e;
 }
 
 .portfolio-main img {
@@ -360,8 +364,8 @@ body {
 .work {
   display: flex;
   padding: 30px;
-  background-color: #169a5c89;
-  color: rgb(8, 8, 8);
+  background-color: #292828;
+  color: rgb(255, 255, 255);
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
@@ -388,12 +392,17 @@ body {
   margin-top: 1rem;
   padding: 0.3rem;
   font-family: monospace;
-  background-color: #101311;
+  background-color: #2ebf5e;
   border: none;
   color: rgb(255, 255, 255);
 }
 
 @media (min-width: 958px) {
+
+  .work {
+    padding-bottom: 4rem;
+  }
+
   .work-details {
     display: flex;
     max-width: 900px;
@@ -443,7 +452,7 @@ body {
 
 .contact-main h1 {
   margin-top: 2rem;
-  color: #78e198;
+  color: #2ebf5e;
 }
 
 .form-items {
@@ -452,7 +461,7 @@ body {
 
 .contact-container {
   background-color: #292828;
-  color: #79e499;
+  color: #2ebf5e;
   padding: 2rem;
   font-family: monospace;
   font-size: 1.2rem;
@@ -469,9 +478,14 @@ body {
   gap: 10px;
 }
 
-.form-items button:hover {
-  background-color: #4fb36d;
+.form-items button {
+  background-color: #367a4a;
   border: none;
+  color: white
+}
+
+.form-items button:hover {
+  background-color: #2ebf5e;
 }
 
 .error {
@@ -486,13 +500,14 @@ body {
 
 .services-main h1 {
   margin-top: 1rem;
-  color: #7efdcca3;
+  color: #2ebf5e;
 }
 
 .static-development {
   margin: 3rem 0rem;
   padding: 3rem;
-  background-color: #1aa06189;
+  color: white;
+  background-color: #242323;
 }
 
 .static-development img {
@@ -500,7 +515,7 @@ body {
   margin-right: 1rem;
 }
 
-.static-development > div {
+.static-development>div {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -511,6 +526,7 @@ body {
 .static-development h2 {
   margin-bottom: 2rem;
   font-weight: bold;
+  color: #2ebf5e
 }
 
 @media (min-width: 768px) {
